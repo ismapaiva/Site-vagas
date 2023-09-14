@@ -1,0 +1,62 @@
+.menu, .menu-logo, .menu-links-lista, .menu-btn-acesso{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    height: 5rem;
+    padding: 0 5rem;
+}
+.menu-logo{
+    gap: .5rem;
+}
+.menu-logo p{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+/* ITENS MENU */
+.menu-links-lista{
+    gap: 2rem
+}
+.lista-a{
+    color: var(--cor-cinza3);
+    text-decoration: none;
+}
+.lista-a:hover{
+    color:var(--cor-vermelho1);
+}
+.menu-links-lista li{
+    transition: transform 0.5s ease;
+}
+.menu-links-lista li:hover{
+    transform: scale(1.2);
+}
+
+/* BOTÕES DE ACESSO */
+.menu-btn-acesso{
+    gap: 1rem;
+}
+.menu-btn-acesso a{
+    text-decoration: none;
+}
+.btn-entrar{
+    color:var(--cor-cinza3);
+    transition: transform 0.3s;
+    font-weight: 500;
+}
+.btn-entrar:active{
+    transform:scale(.8);
+}
+.btn-cadastrar{
+    color: var(--cor-branco1);
+    background-color: var(--cor-vermelho1);
+    padding: .8rem;
+    border-radius: 7px;
+    transition: transform 0.3s;
+}
+.btn-cadastrar:active{
+    transform:scale(.8)
+}
+
+

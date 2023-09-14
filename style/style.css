@@ -1,0 +1,17 @@
+@import "navBar.css";
+@import "/style/secao1.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+/* VARIAVEIS */
+:root{
+    --cor-branco1: #FFFFFF;
+    --cor-cinza1: #EAECF0;
+    --cor-cinza2: #98A2B3;
+    --cor-cinza3: #667085;
+    --cor-cinza4: #101828;
+    --cor-vermelho1: #8E2424;
+    font-family: Inter, sans-serif;
+}
+
+

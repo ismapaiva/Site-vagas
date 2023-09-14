@@ -1,0 +1,11 @@
+.secao-sobrenos{
+    background-color: var(--cor-cinza1);
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 5rem;
+    box-sizing: border-box;
+    gap: 2rem;
+}
